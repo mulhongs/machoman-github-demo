@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Machoman - AI Sales & Marketing Assistant</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        darkBg: '#0f172a',
+                        cardBg: '#1e293b',
+                        accent: '#38bdf8'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-darkBg text-slate-100 font-sans antialiased selection:bg-accent selection:text-slate-900">
+
+    <!-- HERO SECTION -->
+    <header class="relative overflow-hidden py-20 px-6 text-center border-b border-slate-800">
+        <div class="max-w-4xl mx-auto">
+            <div class="inline-flex items-center gap-2 bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 px-4 py-1.5 rounded-full text-sm font-medium mb-6">
+                <span class="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse"></span>
+                Status: Active & Ready 24/7
+            </div>
+            <div class="text-6xl mb-4">🦾</div>
+            <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight mb-4">
+                Machoman
+            </h1>
+            <p class="text-xl text-slate-400 max-w-2xl mx-auto mb-8">
+                Otomasi follow-up email penawaran korporat dan pengingat konten iklan strategis untuk memaksimalkan eksposur <span class="text-accent font-semibold">Klikminime.com</span> tanpa stres.
+            </p>
+            <div class="flex justify-center gap-4">
+                <a href="#simulation" class="bg-sky-500 hover:bg-sky-400 text-slate-950 font-bold px-6 py-3 rounded-xl transition shadow-lg shadow-sky-500/20">
+                    Coba Simulasi Agen
+                </a>
+                <a href="https://wa.me/628158008524" target="_blank" class="bg-slate-800 hover:bg-slate-700 text-slate-200 font-semibold px-6 py-3 rounded-xl border border-slate-700 transition">
+                    Hubungi via WhatsApp
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- PROBLEM & SOLUTION CARD -->
+    <section class="py-16 px-6 max-w-6xl mx-auto">
+        <div class="text-center mb-12">
+            <h2 class="text-2xl md:text-3xl font-bold mb-3">Transformasi Alur Kerja Anda</h2>
+            <p class="text-slate-400">Bagaimana Machoman mengatasi hambatan operasional harian bisnis Anda.</p>
+        </div>
+        <div class="grid md:grid-cols-2 gap-8">
+            <!-- The Chaos -->
+            <div class="bg-red-950/20 border border-red-900/30 rounded-2xl p-8">
+                <div class="flex items-center gap-3 mb-6">
+                    <span class="text-2xl">🌪️</span>
+                    <h3 class="text-xl font-bold text-red-400">The Chaos (Sebelum Machoman)</h3>
+                </div>
+                <ul class="space-y-4 text-slate-300">
+                    <li class="flex items-start gap-3">
+                        <span class="text-red-400 font-bold">✕</span>
+                        <span>Sering terlewat membuat iklan karena butuh konsentrasi penuh dan memakan waktu hingga 2 jam per sesi.</span>
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <span class="text-red-400 font-bold">✕</span>
+                        <span>Malas dan keburu capek melakukan follow-up email penawaran manual ke perusahaan besar akibat minimnya respons awal.</span>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- The Solution -->
+            <div class="bg-emerald-950/20 border border-emerald-900/30 rounded-2xl p-8">
+                <div class="flex items-center gap-3 mb-6">
+                    <span class="text-2xl">⚡</span>
+                    <h3 class="text-xl font-bold text-emerald-400">The Solution (Dengan Machoman)</h3>
+                </div>
+                <ul class="space-y-4 text-slate-300">
+                    <li class="flex items-start gap-3">
+                        <span class="text-emerald-400 font-bold">✓</span>
+                        <span>Automasi pengiriman ulang email penawaran korporat setiap Senin & Kamis dengan draf halus tanpa kesan spam.</span>
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <span class="text-emerald-400 font-bold">✓</span>
+                        <span>Pengingat & perencanaan konten iklan Facebook & Instagram otomatis setiap Selasa & Jumat.</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- CORE CAPABILITIES -->
+    <section class="py-16 px-6 max-w-6xl mx-auto border-t border-slate-800">
+        <div class="text-center mb-12">
+            <h2 class="text-2xl md:text-3xl font-bold mb-3">Kapabilitas Utama</h2>
+            <p class="text-slate-400">Fitur cerdas yang dirancang khusus untuk skala bisnis karikatur Anda.</p>
+        </div>
+        <div class="grid md:grid-cols-3 gap-6">
+            <!-- Card 1 -->
+            <div class="bg-cardBg border border-slate-800 rounded-2xl p-6 hover:border-slate-700 transition">
+                <div class="text-3xl mb-4">📧</div>
+                <h3 class="text-lg font-bold mb-2">Smart B2B Follow-Up</h3>
+                <p class="text-slate-400 text-sm">Menjadwalkan kirim ulang email penawaran setiap Senin & Kamis lengkap dengan draf saran persuasif yang elegan.</p>
+            </div>
+            <!-- Card 2 -->
+            <div class="bg-cardBg border border-slate-800 rounded-2xl p-6 hover:border-slate-700 transition">
+                <div class="text-3xl mb-4">✍️</div>
+                <h3 class="text-lg font-bold mb-2">Human-in-the-Loop Approval</h3>
+                <p class="text-slate-400 text-sm">Selalu meminta persetujuan Anda sebelum draf email dikirimkan untuk memastikan nada bicara selalu pas.</p>
+            </div>
+            <!-- Card 3 -->
+            <div class="bg-cardBg border border-slate-800 rounded-2xl p-6 hover:border-slate-700 transition">
+                <div class="text-3xl mb-4">📅</div>
+                <h3 class="text-lg font-bold mb-2">Google Calendar Integration</h3>
+                <p class="text-slate-400 text-sm">Menyinkronkan jadwal posting iklan FB/IG (Selasa & Jumat) dan agenda bisnis secara rapi dan tepat waktu.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- INTERACTIVE SIMULATION -->
+    <section id="simulation" class="py-16 px-6 max-w-3xl mx-auto border-t border-slate-800">
+        <div class="text-center mb-10">
+            <h2 class="text-2xl md:text-3xl font-bold mb-3">Simulasi Interaktif Machoman</h2>
+            <p class="text-slate-400 text-sm">Uji skenario interaksi agen cerdas untuk alur kerja mingguan Anda.</p>
+        </div>
+
+        <div class="bg-cardBg border border-slate-800 rounded-2xl p-6 shadow-xl">
+            <!-- Chat Window -->
+            <div id="chatWindow" class="h-64 overflow-y-auto space-y-4 mb-4 p-4 bg-darkBg/50 rounded-xl border border-slate-800/60 text-sm">
+                <div class="flex items-start gap-3">
+                    <div class="w-8 h-8 rounded-full bg-sky-500/20 text-sky-400 flex items-center justify-center font-bold text-xs shrink-0">M</div>
+                    <div class="bg-slate-800 p-3 rounded-2xl rounded-tl-none max-w-[80%] text-slate-200">
+                        Halo! Saya Machoman, asisten AI Anda. Pilih skenario di bawah untuk melihat bagaimana saya membantu tugas Anda hari ini.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-2">
+                <button onclick="runSim(1)" class="bg-slate-800 hover:bg-slate-700 text-slate-200 font-medium py-2.5 px-4 rounded-xl text-xs transition border border-slate-700">
+                    1. Jadwal Follow-Up Senin
+                </button>
+                <button onclick="runSim(2)" class="bg-slate-800 hover:bg-slate-700 text-slate-200 font-medium py-2.5 px-4 rounded-xl text-xs transition border border-slate-700">
+                    2. Approval Draf Email
+                </button>
+                <button onclick="runSim(3)" class="bg-slate-800 hover:bg-slate-700 text-slate-200 font-medium py-2.5 px-4 rounded-xl text-xs transition border border-slate-700">
+                    3. Reminder Iklan Selasa
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER & CTA -->
+    <footer class="py-12 px-6 text-center border-t border-slate-800 bg-slate-950/40">
+        <div class="max-w-xl mx-auto space-y-6">
+            <h3 class="text-2xl font-bold">Siap Optimalkan Bisnis Karikatur Anda?</h3>
+            <p class="text-slate-400 text-sm">Hubungi pengembang atau diskusikan kolaborasi langsung melalui WhatsApp.</p>
+            <div>
+                <a href="https://wa.me/628158008524" target="_blank" class="inline-block bg-emerald-600 hover:bg-emerald-500 text-white font-bold px-8 py-4 rounded-xl transition shadow-lg shadow-emerald-600/25">
+                    Hubungi via WhatsApp (0815-8008-524)
+                </a>
+            </div>
+            <p class="text-xs text-slate-500 pt-6">
+                Built with AI · AI Builder Bootcamp Showcase
+            </p>
+        </div>
+    </footer>
+
+    <!-- SIMULATION SCRIPT -->
+    <script>
+        function appendMessage(sender, text, isUser = false) {
+            const chatWindow = document.getElementById('chatWindow');
+            const div = document.createElement('div');
+            div.className = `flex items-start gap-3 ${isUser ? 'flex-row-reverse' : ''}`;
+            
+            const avatar = isUser 
+                ? '<div class="w-8 h-8 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center font-bold text-xs shrink-0">U</div>'
+                : '<div class="w-8 h-8 rounded-full bg-sky-500/20 text-sky-400 flex items-center justify-center font-bold text-xs shrink-0">M</div>';
+            
+            const bubbleBg = isUser ? 'bg-sky-600 text-white rounded-tr-none' : 'bg-slate-800 text-slate-200 rounded-tl-none';
+
+            div.innerHTML = `
+                ${avatar}
+                <div class="${bubbleBg} p-3 rounded-2xl max-w-[80%] text-sm">
+                    ${text}
+                </div>
+            `;
+            chatWindow.appendChild(div);
+            chatWindow.scrollTop = chatWindow.scrollHeight;
+        }
+
+        function showTyping() {
+            const chatWindow = document.getElementById('chatWindow');
+            const div = document.createElement('div');
+            div.id = 'typingIndicator';
+            div.className = 'flex items-start gap-3';
+            div.innerHTML = `
+                <div class="w-8 h-8 rounded-full bg-sky-500/20 text-sky-400 flex items-center justify-center font-bold text-xs shrink-0">M</div>
+                <div class="bg-slate-800 p-3 rounded-2xl rounded-tl-none text-slate-400 text-sm animate-pulse">
+                    Machoman sedang mengetik...
+                </div>
+            `;
+            chatWindow.appendChild(div);
+            chatWindow.scrollTop = chatWindow.scrollHeight;
+        }
+
+        function removeTyping() {
+            const typing = document.getElementById('typingIndicator');
+            if (typing) typing.remove();
+        }
+
+        function runSim(type) {
+            let userText = '';
+            let botResponse = '';
+
+            if (type === 1) {
+                userText = "Jalankan agenda follow-up email korporat hari Senin.";
+                botResponse = "Siaap! Mengecek Google Calendar... Hari ini Senin. Saya menyiapkan draf follow-up penawaran patung karikatur untuk 5 klien korporat target.";
+            } else if (type === 2) {
+                userText = "Tampilkan draf email follow-up untuk saya review.";
+                botResponse = "Berikut drafnya: 'Halo Bapak/Ibu, menindaklanjuti penawaran patung karikatur eksklusif Klikminime.com sebelumnya...'. Apakah Anda setuju dengan isi ini sebelum dikirim?";
+            } else {
+                userText = "Bagaimana status pengingat iklan Facebook minggu ini?";
+                botResponse = "Tercatat di Google Calendar! Jadwal pembuatan konten iklan Facebook & Instagram jatuh pada hari Selasa dan Jumat pukul 10:00 WIB. Siap dieksekusi.";
+            }
+
+            appendMessage('User', userText, true);
+            
+            setTimeout(() => {
+                showTyping();
+                setTimeout(() => {
+                    removeTyping();
+                    appendMessage('Machoman', botResponse, false);
+                }, 1000);
+            }, 500);
+        }
+    </script>
+</body>
+</html>
